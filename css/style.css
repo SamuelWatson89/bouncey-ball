@@ -2,8 +2,8 @@
 .ball {
     position: relative;
     top: 150px;
-    width: 250px;
-    height: 250px;
+    width: 150px;
+    height: 150px;
     background: #f45e07;
     border-radius: 50%;
     animation-name: jump;
@@ -14,7 +14,15 @@
     animation-duration: 1s;
     margin: 100px auto;
     text-align: center;
-    
+}
+
+.ball p {
+    position: relative;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-size: 2em;
+    font-family: 'Oswold', sans-serif
 }
 
 @keyframes jump {
