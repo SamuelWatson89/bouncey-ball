@@ -1,0 +1,28 @@
+
+.ball {
+    position: relative;
+    top: 150px;
+    width: 250px;
+    height: 250px;
+    background: #f45e07;
+    border-radius: 50%;
+    animation-name: jump;
+    animation-timing-function: ease-in-out;
+    animation-fill-mode: both;
+    animation-iteration-count: infinite;
+    animation-direction: alternate;
+    animation-duration: 1s;
+    margin: 100px auto;
+    text-align: center;
+    
+}
+
+@keyframes jump {
+    from {
+        top: 0px;
+    }
+    
+    to {
+        top: 100px;
+    }
+}
